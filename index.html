@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Apparel Survey Form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Apparel Survey Form</h1>
+    <p id="description">We are super keen to learn what types of apparel you would be most interested in. Please complete this survey by answering all of the questions below:</p>
+  <div>
+    <form id="survey-form">
+    <label for="name" id="name-label">Name:<input id="name" type="text"required placeholder="Enter Your Name Here"></label>
+    <label for="email" id="email-label">Email:<input id="email" type="email" required placeholder="Enter Your Email Address Here"></label>
+    <label for="phone-number" id="number-label">Phone Number:<input id="number" type="number" min="9" max="13" placeholder="Enter Your Phone Number Here"></label>
+    <label for="Apparel Preference">Apparel Preference:<select id="dropdown">
+      <option>T-Shirts</option>
+      <option>Hoodies</option>
+      <option>Joggers</option>
+      </select>
+    </label>
+    <label for="Occasion">I dress:<br>
+      <input id="occasion" type="radio" value="For Comfort" name="I dress">For Comfort</input>
+      <input id="occasion" type="radio" value="For Style" name="I dress">For Style</input>
+      <input id="occasion" type="radio" value="To Impress" name="I dress">To Impress</input>
+    </select>
+    </label>  
+    <label for="Spend">I'm comfortable spending:<br>
+    <input id="spend" type="checkbox" value="up to 50" name="spend">Up to £30</input>
+    <input id="spend" type="checkbox" value="up to 100" name="spend">Up to £50</input>
+    <input id="spend" type="checkbox" value="up to 50" name="spend">Up to £80</input>
+    <textarea id="other" placeholder="Please feel free to tell us what other apparel would you be interested in?"></textarea><br>
+    <input id="submit" type="submit">
+    </form>
+   </div>
+  </body>
+</html>
